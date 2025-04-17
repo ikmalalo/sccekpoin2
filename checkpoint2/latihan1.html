@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Petshop Bahagia</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: "Poppins", sans-serif;
+            background-color: #f3f3f3;
+        }
+
+        body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .text-container {
+            text-align: left;
+            max-width: 50%;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin: 0;
+        }
+
+        h2 {
+            color: #333;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #f8a127;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .image-container {
+            text-align: right;
+            max-height: 100%;
+        }
+
+        .image-container img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 12px;
+            max-height: 40vh;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                align-items: flex-start;
+                overflow: auto; /* aktifkan scroll jika layar kecil */
+            }
+
+            .image-container {
+                text-align: center;
+                width: 100%;
+            }
+
+            .text-container {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="text-container">
+        <h1>Sigma Petshop</h1>
+        <h2>Kucing Sigma dan Anjing Sigma menanti anda disini asik</h2>
+        <p>Selamat Datang Ganteng dan Cantik di Petshop Ikmal Sigma</p>
+
+        <a href="https://www.instagram.com/ikmalatte" target="_blank">
+            <button>Foll Ig cuy</button>
+        </a>
+    </div>
+
+    <div class="image-container">
+        <img src="kucingsigma.jpg" alt="Kucing">
+        <img src="anjsigma.jpg" alt="Anjing">
+    </div>
+
+</body>
+
+</html>
